@@ -1,0 +1,151 @@
+
+  /* .havit_tips h2{} */
+ @media screen and (max-width: 576px) {
+    #navigation{
+        justify-content: space-between;
+        padding: 0 50px;
+        margin-bottom: 50px;
+    }
+    #header_box{
+         margin-top: 50px;
+    }
+    .header_contant h1{
+        font-size: 2rem;
+       
+    }
+    #navigation .hamburg_menu {
+    color: #000;
+    display: block;
+  }
+  #navigation ul  {
+    display: none;
+  }
+
+  #header_box{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header_image{
+    justify-content: center;
+  }
+
+  .button_box{
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .havit_card{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+  }
+  .team_members{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .card_round{
+    width: 70%;
+    margin: 5px auto 0;
+  }
+  .join_info, .training_details, .excersize_container, .trainer_box{
+    padding: 20px;
+}
+
+  .run_box{
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .button_mobail{
+    width: 100%;
+  }
+  .run_image{
+    margin: 0 auto;
+  }
+
+  .footer_box{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .foot_part_link{
+    margin: 20px;
+  }
+}
+
+@media screen and (min-width: 576.01px) and (max-width:800px) {
+       #navigation{
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+
+  #header_box{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header_image{
+    justify-content: center;
+  }
+
+  .button_box{
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .havit_card{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+  .team_members{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .card_round{
+    width: 70%;
+    margin: 5px auto 0;
+  }
+  .training_details, .excersize_container, .trainer_box{
+    padding: 20px;
+}
+
+    .join_info{
+        max-width: 50%;
+        padding: 20px;
+    }
+    .run_box{
+    text-align: center;
+    padding: 15px;
+    gap: 10px;
+  }
+    
+    .button_mobail{
+    width: 80%;
+  }
+  .run_image{
+    width: 100%;
+    height: 100%;
+  }
+  .run_image img{
+     width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .footer_box{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+  }
+
+  .foot_part_one{
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  .flix_display{
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .foot_part_link{
+    margin: 20px;
+  }
+
+}
+
+  

@@ -1,0 +1,437 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #B9B9B9;
+}
+:root{
+    --background-gradient: linear-gradient(
+        180deg,
+        rgba(17,17,17,1) 0%,
+        rgba(119,119,119,0) 100%
+    );
+    --font-color-primary: #FAFAF9;
+    --font-color-secondary: color: rgba(255, 255, 255, 0.5);;
+    --button-background-color: #E6533C;
+    --button-font-color:#ffffff;
+    --exercise-name-color: #000000;
+    --exercise-woner-name-color: #00000061;
+    
+}
+
+/* comon design */
+  .max_width{
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+
+  .flix_display{
+    display: flex;
+  }
+
+  .grid_display{
+    display: grid;
+  }
+
+  .button_class{
+    padding: 14px 40px;
+    border-radius: 42px;
+    border: none;
+    background: rgba(230, 83, 60, 1);
+    color: var(--button-font-color);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+   /* item design */
+  #navigation{
+    justify-content: space-between;
+    margin-top: 57px;
+    padding: 0 50px;
+    align-items: center;
+  }
+
+  #navigation h2 , .foot_part_one h2{
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 120%;
+    color: var(--button-background-color);
+  }
+
+  #navigation ul{
+    list-style: none;
+    gap: 50px;
+    justify-content: center;
+     border: 2px solid black;
+    border-radius: 46px;
+  }
+  #navigation ul .first_child{
+    background-color: var(--button-background-color);
+    border-radius: 46px;
+  }
+   #navigation ul  li{
+    padding: 8px 20px;
+   
+   }
+  #navigation ul li a{
+    font-size: 1rem;
+    color: var(--font-color-secondary);
+    text-decoration: none;
+  }
+ 
+  #navigation .hamburg_menu {
+    display: none;
+  }
+
+
+  /* header design */
+  #header_box{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 10px 50px;
+  }
+  .header_contant{
+    max-width: 550px;
+    flex-direction: column;
+    gap: 28px;
+
+  
+  }
+  .header_contant h1{
+    font-size: 4.875rem;
+    line-height: 120%;
+    font-weight: 900;
+    font-style: black;
+    color: var(--font-color-primary);
+  }
+  .header_contant p{
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: var(--font-color-secondary);
+  }
+
+  .button_box{
+    gap: 28px;
+  }
+  .button_box :last-child{
+    background-color: transparent;
+    border: 2px solid black;
+    color: var(--button-font-color);
+  }
+  .header_image img{
+    min-width: 90%;
+  }
+  /* havit tips */
+
+  .havit_tips {
+    text-align: center;
+    max-width: 670px;
+    margin: 0 auto;
+  }
+
+  .havit_tips h2{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    color: var(--font-color-primary);
+  }
+  .havit_tips p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--font-color-secondary);
+    letter-spacing: 0.3px;
+    margin: 14px 0 58px 0;
+  }
+
+  .havit_card{
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    gap: 50px;
+  }
+
+  .card_round{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+.card_round img{
+ width: 100%;
+ border-radius: 50%;
+}
+.card_round h3{
+    color: var(--font-color-primary);
+    font-size: 18px;
+    font-weight: 600;
+}
+.card_round p{
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--font-color-secondary);
+}
+
+
+/* run and join  */
+.run_box{
+    padding: 50px;
+    justify-content: space-between;
+    border-radius: 18px;
+    background-color: rgba(34, 34, 34, 0.522);
+}
+.join_info {
+max-width: 450px;
+text-align: left;
+align-items: center;
+
+}
+.join_info h2{
+    margin-bottom: 14px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    color: var(--font-color-primary);
+}
+.join_info p{
+    margin-bottom: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--font-color-secondary);
+}
+
+.run_image{
+    max-width: 365px;
+}
+.run_image img{
+    width: 100%;
+    border-radius: 18px;
+}
+
+
+
+/* skhbhfdksdfjgf */
+
+.training_box{
+    /* max-width: 670px; */
+    margin: 0 auto;
+    text-align: left;
+}
+
+.training_details h2{
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 900;
+    margin-bottom: 14px;
+    color: var(--font-color-primary);
+}
+
+.training_details p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-bottom: 60px;
+    color: var(--font-color-secondary);
+}
+
+/* kjhgkfhdgsldafhasfd */
+
+
+.excersize_container{
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: repeat(2, 200px);
+}
+.excersize_container div img{
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.excersize_container .normal_layout{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.excersize_container .big_layout{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.training_card_image{
+   
+    border-radius: 20px;
+}
+
+.excersize_name_box{
+    position: relative;
+}
+
+.excersize_name{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.excersize_name_big{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.profetion_name{
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: var(--exercise-name-color);
+}
+.personal_name{
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: 400;
+    color: var(--exercise-woner-name-color);
+}
+
+.excersize_name_box .overlay{
+    position: absolute;
+    inset: 0;
+    background: #06ffd128;
+}
+.excersize_name_box .overlay_two{
+    position: absolute;
+    inset: 0;
+    background: #ff00002e;
+}
+.excersize_name_box .oveoverlay_mid{
+    position: absolute;
+    inset: 0;
+    background: #44ff0061;
+}
+.excersize_name_box .overlay_end{
+    position: absolute;
+    inset: 0;
+    background: #0048ff2d;
+}
+
+
+
+/* sdkfgkisadhfksadfha */
+/* team_details design */
+
+.team_details{
+    max-width: 670px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team_details h2{
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 900;
+    margin-bottom: 14px;
+    color: var(--font-color-primary);
+}
+
+.team_details p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-bottom: 60px;
+    color: var(--font-color-secondary);
+}
+
+.team_members{
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    
+}
+
+.team_card{
+    position: relative;
+}
+
+.team_card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+      display: block;
+    border-radius: 20px;
+}
+
+.member_name{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.profetion_name{
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: var(--font-color-primary);
+}
+.personal_name{
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: 400;
+    color: var(--font-color-secondary);
+}
+
+
+/* footer  */
+   .footer_box {
+    justify-content: space-between;
+    grid-template-columns: 40% 1fr 1fr;
+    text-align: left;
+    padding: 50px;
+}
+
+    .foot_part_link{ 
+    margin-left: 100px;
+}
+.foot_part_link ul li a{
+    color: var(--font-color-secondary);
+}
+   .footer_box h2{
+    font-size: 70px;
+    line-height: 120%;
+    font-weight: 800;
+    margin-bottom: 14px;
+    color: var(--button-background-color);
+}
+
+   .footer_box h3{
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: var(--font-color-primary);
+}
+   .footer_box p{
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 14px;
+    color: var(--font-color-secondary);
+}
+   .foot_part_link ul{
+     flex-direction: column;
+     gap: 15px;
+}
+
+.copyright{
+    font-size: 1rem;
+    color: var(--font-color-secondary);
+    text-align: center;
+
+}
+
